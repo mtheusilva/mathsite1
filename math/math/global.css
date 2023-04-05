@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Avant-Garde;
+    src: url("./assets/Avant\ Garde\ Bold.ttf");
+}
+
+:root {
+    --blue: rgba(30, 30, 155, 1);
+    --pink: rgba(255, 192, 192, 1);
+    --black: rgba(33, 33, 33, 1);
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(219, 219, 219, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avant-Garde", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+header {
+    background-color: var(--black);
+    height: 60px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header img {
+    height: 50%;
+}
+
+header a {
+    margin-left: 2%;
+}
+
+.content {
+    margin-right: 2%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content a {
+    text-decoration: none;
+    color: var(--white);
+}
